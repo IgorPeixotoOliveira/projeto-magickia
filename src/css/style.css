@@ -1,0 +1,164 @@
+body {
+    font-family: "roboto", sans-serif;
+}
+
+body .header {
+    background-color: #0E0027;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+body .container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+main.container .products {
+    color: #6528D3;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+
+main.container .product-filter {
+    color: #6528D3;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+main.container .categoria,
+.container .card-price {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+main.container label {
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #6528D3;
+}
+
+main.container select,
+.container input {
+    padding: 16px 13px;
+    border-radius: 10px;
+    border: 2px solid #6528D3;
+    background-color: #F2EEFA;
+    color: #130234;
+    height: 52px;
+}
+
+.container select:focus,
+.container input:focus,
+.container select:focus-visible,
+.container input:focus-visible {
+    outline: none;
+}
+
+.container select.categoria {
+    appearance: none;
+    background: url(../images/seta-para-baixo.png) 97% center no-repeat;
+}
+
+.container .btn-filter {
+    border: none;
+    background-color: #6528D3;
+    color: #EDEDED;
+    padding: 16px 32px;
+    font-weight: 500;
+    align-self: end;
+    border-radius: 10px;
+    width: 177px;
+    height: 52px;
+    cursor: pointer;
+    letter-spacing: 2px;;
+    transition: 0,3s;
+}
+
+.container .btn-filter:hover {
+    background-color: #33008F
+}
+
+.container .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.container .card {
+    max-width: 365px;
+    background-color: #EDEDED;
+    color: #0E0027;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgb(0,0,0,0,0.2);
+}
+
+.container .card img {
+    width: 100%;
+    padding: 20px;
+}
+
+.container .card .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.container .card .info .nome-personagem {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.container .card .info .categoria {
+    font-size: 16px;
+    font-weight: 400;
+    color: #111111;
+}
+
+.container .card .info .preco {
+    font-size: 24px;
+    letter-spacing: 2px;
+    width: 100%;
+    font-weight: 700;
+    color #4d8e5c;
+}
+
+.container .card .info .btn-comprar {
+    color: #EDEDED;
+
+}
+
+.container .card .info .btn-comprar:hover {
+    background-color: #33008F;
+    text-decoration: none;
+}
+
+.rodape {
+    background-color: #6528D3;
+    display: flex;
+    justify-content: center;
+    color: #EDEDED;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
