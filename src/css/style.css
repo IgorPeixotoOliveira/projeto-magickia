@@ -32,8 +32,8 @@ main.container .product-filter {
     margin-bottom: 32px;
 }
 
-main.container .categoria,
-.container .card-price {
+main.container select.categoria,
+.container div.card-price {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -55,19 +55,19 @@ main.container select,
     height: 52px;
 }
 
-.container select:focus,
-.container input:focus,
-.container select:focus-visible,
-.container input:focus-visible {
+main.container select:focus,
+main.container input:focus,
+main.container select:focus-visible,
+main.container input:focus-visible {
     outline: none;
 }
 
-.container select.categoria {
+main.container select.categoria {
     appearance: none;
     background: url(../images/seta-para-baixo.png) 97% center no-repeat;
 }
 
-.container .btn-filter {
+main.container .btn-filter {
     border: none;
     background-color: #6528D3;
     color: #EDEDED;
@@ -82,18 +82,18 @@ main.container select,
     transition: 0,3s;
 }
 
-.container .btn-filter:hover {
+main.container .btn-filter:hover {
     background-color: #33008F
 }
 
-.container .cards {
+main.container .cards {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
     margin-top: 32px;
 }
 
-.container .card {
+main.container .cards .card {
     max-width: 365px;
     background-color: #EDEDED;
     color: #0E0027;
@@ -101,12 +101,12 @@ main.container select,
     box-shadow: 0 6px 12px rgb(0,0,0,0,0.2);
 }
 
-.container .card img {
+main.container .card img {
     width: 100%;
     padding: 20px;
 }
 
-.container .card .info {
+main.container .card .info {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -115,37 +115,36 @@ main.container select,
     border-bottom-left-radius: 20px;
 }
 
-.container .card .info .nome-personagem {
+main.container .card .info .nome-personagem {
     font-size: 24px;
     font-weight: 700;
     color: #111111;
 }
 
-.container .card .info .categoria {
+main.container .card .info .categoria {
     font-size: 16px;
     font-weight: 400;
     color: #111111;
 }
 
-.container .card .info .preco {
+main.container .card .info .preco {
     font-size: 24px;
     letter-spacing: 2px;
     width: 100%;
     font-weight: 700;
-    color #4d8e5c;
+    color: #4D8E5C;
 }
 
-.container .card .info .btn-comprar {
+main.container .card .info .btn-comprar {
     color: #EDEDED;
-
 }
 
-.container .card .info .btn-comprar:hover {
+main.container .card .info .btn-comprar:hover {
     background-color: #33008F;
     text-decoration: none;
 }
 
-.rodape {
+main.rodape {
     background-color: #6528D3;
     display: flex;
     justify-content: center;
