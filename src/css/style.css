@@ -97,8 +97,9 @@ main.container .cards .card {
     max-width: 365px;
     background-color: #EDEDED;
     color: #0E0027;
+    box-shadow: 0 6px 12px rgb(0,0,0,0.2);
     border-radius: 20px;
-    box-shadow: 0 6px 12px rgb(0,0,0,0,0.2);
+
 }
 
 main.container .card img {
@@ -113,6 +114,7 @@ main.container .card .info {
     background-color: #FFFFFF;
     padding: 20px;
     border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 main.container .card .info .nome-personagem {
