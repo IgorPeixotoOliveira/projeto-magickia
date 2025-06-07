@@ -138,12 +138,18 @@ main.container .card .info .preco {
 }
 
 main.container .card .info .btn-comprar {
-    color: #EDEDED;
+	color: #ededed;
+	background-color: #6528d3;
+	padding: 16px;
+	border-radius: 4px;
+	letter-spacing: 2px;
+	transition: 0.3s;
+	text-align: center;
+	text-decoration: none;
 }
 
 main.container .card .info .btn-comprar:hover {
     background-color: #33008F;
-    text-decoration: none;
 }
 
 main.rodape {
