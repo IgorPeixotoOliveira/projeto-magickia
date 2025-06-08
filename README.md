@@ -21,7 +21,7 @@ Um site responsivo para compra de cartas mágicas, desenvolvido com foco em HTML
 ## 📁 Estrutura do Projeto
 
 ```bash
-projeto-maginkai/
+projeto-magickia/
 ├── index.html
 └── src/
     ├── css/
