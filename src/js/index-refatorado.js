@@ -1,5 +1,4 @@
 const botaoFiltrar = document.querySelector(".btn-filter");
-
 botaoFiltrar.addEventListener("click", filtrarCards);
 
 function filtrarCards() {

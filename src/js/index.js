@@ -2,6 +2,8 @@ const botaoFiltrar = document.querySelector(".btn-filter");
 botaoFiltrar.addEventListener("click", function(){
     const categoriaSelecionada = document.querySelector('#categoria').value;
     const precoMaximoSelecionado = document.querySelector('#preco').value;
+
+
 const cards = document.querySelectorAll(".card");
     cards.forEach (function (card) {
         const categoriaCard = card.dataset.categoria;
