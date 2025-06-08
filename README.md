@@ -18,6 +18,8 @@ https://github.com/IgorPeixotoOliveira/projeto-maginkai/assets/SEU-USER-ID-GITHU
 
 ---
 
+![Demonstração do projeto](./demo.gif)
+
 ## 📁 Estrutura do Projeto
 
 ```bash
@@ -36,4 +38,4 @@ projeto-maginkai/
         ├── index.js
         └── index-refatorado.js
 
-![Demonstração do projeto](./demo.gif)
+
