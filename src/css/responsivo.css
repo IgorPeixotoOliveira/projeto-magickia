@@ -1,16 +1,38 @@
-@media(max-width: 1024px) {
-    .container {
-        width: 100%;
+@media(max-width: 1173px) {
+    main.container {
         padding: 20px;
     }
 
-    .container h1{
+    main.container h1{
         text-align: center;
     }
 
-    .container .products-filter {
+    main.container .filter {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 16px;
+    }
+
+    main.container .filter .cards-categoria,
+    main.container .filter .cards-price,
+    main.container .filter .btn-filter {
+        width: 65%;
+    }
+
+    main.container .filter .btn-filtrar {
+        align-self: center;
+    }
+
+    main.container .cards {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 480px) {
+    main.container .filter .cards-categoria,
+    main.container .filter .cards-preco,
+    main.container .filter .btn-filter {
+        width: 100%;
     }
 }
