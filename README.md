@@ -4,7 +4,7 @@ Um site responsivo para compra de cartas mágicas, desenvolvido com foco em HTML
 
 ## 📸 Demonstração
 
-https://github.com/IgorPeixotoOliveira/projeto-maginkai/assets/SEU-USER-ID-GITHUB/video.mp4
+![Demonstração do projeto](./demo.gif)
 
 > O site é totalmente responsivo, adaptando-se para dispositivos móveis e tablets. Os filtros e botões funcionam de forma fluida.
 
