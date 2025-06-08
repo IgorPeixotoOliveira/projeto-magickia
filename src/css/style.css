@@ -16,7 +16,7 @@ body .container {
 }
 
 main.container .products {
-    color: #6528D3;
+    color: #6528d3;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 32px;
@@ -24,20 +24,22 @@ main.container .products {
     letter-spacing: 2px;
 }
 
-main.container .product-filter {
-    color: #6528D3;
+main.container .filter {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin-bottom: 32px;
+    max-width: 1679px;
+    margin: 0 auto;
 }
 
-main.container select.categoria,
-.container div.card-price {
+main.container .filter div {
     display: flex;
     flex-direction: column;
+    gap: 16px;
     width: 40%;
 }
+
 
 main.container label {
     letter-spacing: 2px;
@@ -75,11 +77,12 @@ main.container .btn-filter {
     font-weight: 500;
     align-self: end;
     border-radius: 10px;
-    width: 177px;
-    height: 52px;
+    max-width: 177px;
+    max-height: 52px;
     cursor: pointer;
-    letter-spacing: 2px;;
-    transition: 0,3s;
+    letter-spacing: 2px;
+    ;
+    transition: 0, 3s;
 }
 
 main.container .btn-filter:hover {
@@ -97,7 +100,7 @@ main.container .cards .card {
     max-width: 365px;
     background-color: #EDEDED;
     color: #0E0027;
-    box-shadow: 0 6px 12px rgb(0,0,0,0.2);
+    box-shadow: 0 6px 12px rgb(0, 0, 0, 0.2);
     border-radius: 20px;
 
 }
@@ -138,21 +141,21 @@ main.container .card .info .preco {
 }
 
 main.container .card .info .btn-comprar {
-	color: #ededed;
-	background-color: #6528d3;
-	padding: 16px;
-	border-radius: 4px;
-	letter-spacing: 2px;
-	transition: 0.3s;
-	text-align: center;
-	text-decoration: none;
+    color: #ededed;
+    background-color: #6528d3;
+    padding: 16px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
 }
 
 main.container .card .info .btn-comprar:hover {
     background-color: #33008F;
 }
 
-main.rodape {
+footer {
     background-color: #6528D3;
     display: flex;
     justify-content: center;
