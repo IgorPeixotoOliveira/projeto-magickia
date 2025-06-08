@@ -18,8 +18,6 @@ Um site responsivo para compra de cartas mágicas, desenvolvido com foco em HTML
 
 ---
 
-![Demonstração do projeto](./demo.gif)
-
 ## 📁 Estrutura do Projeto
 
 ```bash
