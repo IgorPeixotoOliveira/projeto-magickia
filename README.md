@@ -1,4 +1,4 @@
-# 🧙‍♂️ Projeto Maginkai
+# 🧙‍♂️ Projeto MagickIA
 
 Um site responsivo para compra de cartas mágicas, desenvolvido com foco em HTML, CSS e JavaScript puro. Os usuários podem visualizar cartas, aplicar filtros por categoria e preço, e realizar uma simulação de compra via WhatsApp.
 
