@@ -29,7 +29,7 @@ main.container .filter {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 32px;
-    max-width: 98%;
+    max-width: 98%;    
     margin: 0 auto;
 }
 
@@ -38,7 +38,6 @@ main.container .filter div {
     flex-direction: column;
     gap: 16px;
     width: 40%;
-
 }
 
 

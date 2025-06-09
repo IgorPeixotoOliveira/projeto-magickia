@@ -1,9 +1,9 @@
-@media(max-width: 1173px) {
+@media(max-width: 1180px) {
     main.container {
         padding: 20px;
     }
 
-    main.container h1{
+    main.container h1 {
         text-align: center;
     }
 
@@ -12,13 +12,24 @@
         flex-direction: column;
         align-items: center;
         gap: 16px;
-        max-width: 68%;
+        max-width: 98%;
+    }
+
+    main.container .filter div {
+        width: 68%;
+    }
+
+    main.container .filter .btn-filtrar {
+        align-self: center;
+        
     }
 
     main.container .filter .cards-categoria,
     main.container .filter .cards-price,
     main.container .filter .btn-filter {
-        width: 65%;
+        align-self: center;
+        max-width: 100%;
+        min-width: 190px;
     }
 
     main.container .filter .btn-filtrar {
@@ -29,17 +40,16 @@
         justify-content: center;
     }
 }
-
-@media(max-width: 820px) {
-    main.container .filter .btn-filter{
-        align-self: center;
+@media(max-width: 817px) {
+    main.container .filter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        width: 75%;
     }
-}
 
-@media(max-width: 480px) {
-    main.container .filter .cards-categoria,
-    main.container .filter .cards-preco,
-    main.container .filter .btn-filter {
-        width: 100%;
+    main.container .filter div {
+        width: 65%;
     }
 }
